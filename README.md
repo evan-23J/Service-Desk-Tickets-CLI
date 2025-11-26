@@ -24,8 +24,7 @@ A C# proyect that allows user to make CRUD operations on tickets depending on ro
    :tickets.json created succesfully  
    :logs.json created succesfully  
    
-   userdata stores user information, tickets stores ticket entries and logs stores the actions taken by the users using the program.
-   These files are created automatically the first time you run the program. 
+   userdata stores user information, tickets stores ticket entries and logs stores the actions taken by the users using the program.   
    
    (1) Register (2) LogIn (3) Exit  
    :1  
