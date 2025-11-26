@@ -19,10 +19,10 @@ A C# proyect that allows user to make CRUD operations on tickets depending on ro
 3. Run the project: dotnet run
 4. The output will prompt you to choose an option, enter the number associated with that option and then enter your input
    Example:
-   When you first run the program the following files will be created: 
-   ** :userdata.json created succesfully 
-   ** :tickets.json created succesfully
-   ** :logs.json created succesfully
+   When you first run the program the following files will be created:   
+   :userdata.json created succesfully  
+   :tickets.json created succesfully  
+   :logs.json created succesfully  
    
    userdata stores user information, tickets stores ticket entries and logs stores the actions taken by the users using the program.
    These files are created automatically the first time you run the program. 
