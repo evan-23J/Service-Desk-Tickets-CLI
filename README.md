@@ -14,10 +14,11 @@ A C# proyect that allows user to make CRUD operations on tickets depending on ro
 
 
 ### How to Run
-1. Clone the repository: https://github.com/evan-23J/Service-Desk-Tickets-CLI.git  
-2. Build the project: dotnet build
-3. Run the project: dotnet run
-4. The output will prompt you to choose an option, enter the number associated with that option and then enter your input
+1. Clone the repository: https://github.com/evan-23J/Service-Desk-Tickets-CLI.git
+2. Change directory: cd Service-Desk-Tickets-CLI  
+3. Build the project: dotnet build
+4. Run the project: dotnet run
+5. The output will prompt you to choose an option, enter the number associated with that option and then enter your input
    Example:
    When you first run the program the following files will be created:   
    :userdata.json created succesfully  
