@@ -39,6 +39,6 @@ See `/docs/threat-model.pdf` and `/docs/threat-model.png` for the threat models 
 #### Security Audit
 
 The project was audited using `dotnet list package --vulnerable`.
-See `image.png`
+See `audit-screenshot.png`, results: The given project `ServiceDeskTickets` has no vulnerable packages given the current sources.
 
 
