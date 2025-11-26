@@ -23,16 +23,16 @@ A C# proyect that allows user to make CRUD operations on tickets depending on ro
    :tickets.json created succesfully
    :logs.json created succesfully
    
-   userdata stores user information, tickets stores ticket entries and logs stores the actions taken by the users using the program.
-   These files are created automatically the first time you run the program.
+   ``userdata stores user information, tickets stores ticket entries and logs stores the actions taken by the users using the program.
+   These files are created automatically the first time you run the program. ``
    
-   :(1) Register (2) LogIn (3) Exit
-   :1
-   Please enter a username:
-   :GitHubUser123
-   Please enter a password:
-   :SuperSecurePass!
-   User registered Succesfully!
+   -:(1) Register (2) LogIn (3) Exit
+   -:1
+   -Please enter a username:
+   -:GitHubUser123
+   -Please enter a password:
+   -:SuperSecurePass!
+   ```User registered Succesfully!
 
 #### Threat Model
 See `/docs/threat-model.pdf` and `/docs/threat-model.png` for the threat models and documentation.
