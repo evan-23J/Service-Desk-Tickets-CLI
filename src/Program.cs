@@ -27,7 +27,7 @@ public class Program
             byte[] bytes = Encoding.UTF8.GetBytes(pass);
             //Gets Hash
             byte[] hashbytes = sha256.ComputeHash(bytes);
-            //Convertir a hexadecimal?
+            //Convertir a hexadecimal
             StringBuilder stringBuilder = new StringBuilder();
             foreach (byte b in hashbytes)
             {
