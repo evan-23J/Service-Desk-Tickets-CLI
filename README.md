@@ -35,7 +35,7 @@ A C# proyect that allows user to make CRUD operations on tickets depending on ro
    User registered Succesfully!  
 
 #### Threat Model
-See `/docs/threat-model.pdf` for the threat models and documentation.
+See `/docs/ThreatModel.pdf` for the threat model and documentation.
 
 #### Security Audit
 
