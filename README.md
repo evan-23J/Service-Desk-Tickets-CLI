@@ -18,12 +18,13 @@ A C# proyect that allows user to make CRUD operations on tickets depending on ro
 2. Build the project: dotnet build
 3. Run the project: dotnet run
 4. The output will prompt you to choose an option, enter the number associated with that option and then enter your input
-   Example:
-   :userdata.json created succesfully // these files are created automatically the first time you run the program.
+   Example: `\n`
+   :userdata.json created succesfully 
    :tickets.json created succesfully
    :logs.json created succesfully
    
-   //userdata stores user information, tickets stores ticket entries and logs stores the actions taken by the users using the program.
+   userdata stores user information, tickets stores ticket entries and logs stores the actions taken by the users using the program.
+   These files are created automatically the first time you run the program.
    
    :(1) Register (2) LogIn (3) Exit
    :1
