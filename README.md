@@ -1,2 +1,44 @@
 # Service-Desk-Tickets-CLI
-A C# program that allows users to submit tickets, stores them in json format and allows agents and admins to review them.
+
+## About
+A C# proyect that allows user to make CRUD operations on tickets depending on role. This program implements basic authentication and secure coding practices, such as password hashing, input validation, least privilege concepts, and has been developed with the Secure by Design concept.
+
+## Authors
+- Evan J. Tellado Rivera – etellado4727@interbayamon.edu
+- Gian F. Rivera Martinez- grivera1912@interbayamon.edu
+
+### Prerequisites
+- .NET 6.0 SDK or higher
+- Git installed
+- Operating system: Windows, Linux, or macOS (developed and tested on windows.)
+
+
+### How to Run
+1. Clone the repository:
+2. Build the project: dotnet build
+3. Run the project: dotnet run
+4. The output will prompt you to choose an option, enter the number associated with that option and then enter your input
+   Example:
+   :userdata.json created succesfully // these files are created automatically the first time you run the program.
+   :tickets.json created succesfully
+   :logs.json created succesfully
+   
+   //userdata stores user information, tickets stores ticket entries and logs stores the actions taken by the users using the program.
+   
+   :(1) Register (2) LogIn (3) Exit
+   :1
+   Please enter a username:
+   :GitHubUser123
+   Please enter a password:
+   :SuperSecurePass!
+   User registered Succesfully!
+
+#### Threat Model
+See `/docs/threat-model.pdf` and `/docs/threat-model.png` for the threat models and documentation.
+
+#### Security Audit
+
+The project was audited using `dotnet list package --vulnerable`.
+See `image.png`
+
+
